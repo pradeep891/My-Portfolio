@@ -1,0 +1,51 @@
+.education {
+    background-color:rgb(57, 3, 3);
+    /* border: 10px solid black; */
+    color: white;
+    height: 600px;    
+    /* margin-top: 0px;     */
+    padding-top: 50px;
+    min-width: 550px;
+}
+
+.education ul {
+  
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+.college-name{
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: 100px;
+}
+
+.heading{
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.education img{
+  position: absolute;
+  margin: 20px 50px 20px 150px;
+  width: 200px;
+}
+
+.education li{
+  list-style-type:'֎  ';
+}
+
+
+
+  /* @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+  
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  } */
