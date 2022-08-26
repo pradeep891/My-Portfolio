@@ -1,0 +1,70 @@
+.main {
+  background-color: black;
+  height: 650px;
+  padding: 20px;
+}
+
+.main div {
+  margin-top: 350px;
+  margin-left: 450px;
+  color: white;
+  line-height: 50px;
+  letter-spacing: 20px;
+  word-spacing: 50px;
+  font-size: 25px;
+  /* text-shadow: 1px 1px #e2e3e993; */
+  /* animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i)); */
+}
+/* 
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  } */
+
+.main #hello {
+  letter-spacing: 30px;
+  margin-left: 200px;
+  margin-top: 100px;
+  position: absolute;
+  font-size: 100px;
+  writing-mode: vertical-rl;
+  transform: rotateX(180deg);
+  transform: scale(-1);
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 150px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.main span::before {
+  letter-spacing: 5px;
+  content: "Competitive Programmer";
+  animation: animate infinite 5s;
+  word-spacing: 10px;
+  font-size: 13px;
+}
+
+@keyframes animate {
+  0% {
+    content: "Competitive Programmer";
+  }
+
+  33% {
+    content: "Web Developer";
+  }
+
+  66% {
+    content: "Final Year Student";
+  }
+}
