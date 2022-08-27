@@ -1,6 +1,6 @@
 import React from 'react';
 import './main.css';
-// Pradeep
+
 function Main(){
     return(
         <div className="main">
